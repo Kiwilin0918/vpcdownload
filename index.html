@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>BTGame下载</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./stylesheets/all.css">
+  <style>
+    html {
+      font-size: 14px;
+    }
+
+    .bg-index {
+      background-image: url('images/bg-01.jpg');
+      background-size: cover;
+      height: 35vh;
+      background-position: 0% 50%;
+    }
+
+    .bg-dark-a {
+      background-color: rgba(0, 0, 0, 0.75);
+    }
+  </style>
+</head>
+
+<body class="bg-dark">
+  <div class="bg-index h-100">
+    <div class="d-flex align-items-center justify-content-center py-5">
+      <img src="images/icon.png" alt="" class="img-fluid" style="width:120px;">
+    </div>
+  </div>
+  <div class="container pt-3">
+    <div class="row offset-lg-3">
+      <div class="col-lg-8">
+        <div class="media pb-3">
+          <img class="mr-3" src="images/icon.png" alt="" style="width:80px;">
+          <div class="media-body text-white">
+            <h5 class="mt-0">BTGame</h5>
+            档案大小：5.5MB<br><small class="text-white-50">更新日期：2018-10-12</small>
+          </div>
+        </div>
+        <a class="btn btn-outline-primary my-3 btn-lg d-block mx-auto" href="VPCasino.apk" role="button">下载VP Casino.apk</a>
+        <!-- <div class="">
+          <img src="images/nav-logo.png" alt="" class="img-fluid d-block mx-auto">
+          <div class="card-body">
+            <h3 class="text-center text-white mb-5">档案下载</h3>
+            <a class="btn btn-outline-primary my-3 btn-lg d-block mx-auto" href="BTGame.apk" role="button">下载BTGame.apk</a>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </div>
+  <footer class="text-center text-white-50 mt-3 mb-2">Copyright © BTGame</footer>
+
+  <script src="/javascripts/vendor.js"></script>
+  <script>
+    (function () {
+      "use strict";
+      window.addEventListener("load", function () {
+        var form = document.getElementById("needs-validation");
+        form.addEventListener("submit", function (event) {
+          if (form.checkValidity() == false) {
+            event.preventDefault();
+            event.stopPropagation();
+          }
+          form.classList.add("was-validated");
+        }, false);
+      }, false);
+    }());
+  </script>
+</body>
+
+</html>
